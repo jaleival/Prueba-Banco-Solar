@@ -1,0 +1,29 @@
+body {
+  background: #e5e1dd;
+}
+
+form {
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+@media (max-width: 575px) {
+  .container-with-100 {
+    width: 100% !important;
+  }
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  text-overflow: ellipsis;
+}
+
+table th,
+table td {
+  white-space: nowrap;
+}
